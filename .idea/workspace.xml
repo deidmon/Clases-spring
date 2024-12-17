@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a6af666-7d8c-4401-a6e4-b7fb483e2b56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/desafio1-spring/desafio-spring/src/main/java/com/aluracursos/desafio_spring/Model/Datos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio1-spring/desafio-spring/src/main/java/com/aluracursos/desafio_spring/Model/DatosAutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio1-spring/desafio-spring/src/main/java/com/aluracursos/desafio_spring/Model/DatosLibros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio1-spring/desafio-spring/src/main/java/com/aluracursos/desafio_spring/Services/ConsumoAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio1-spring/desafio-spring/src/main/java/com/aluracursos/desafio_spring/Services/ConvierteDatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio1-spring/desafio-spring/src/main/java/com/aluracursos/desafio_spring/Services/IConvierteDatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio1-spring/desafio-spring/src/main/java/com/aluracursos/desafio_spring/principal/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desafio1-spring/.idea/clases-spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/desafio1-spring/.idea/clases-spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desafio1-spring/desafio-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/desafio1-spring/desafio-spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desafio1-spring/desafio-spring/src/main/java/com/aluracursos/desafio_spring/DesafioSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/desafio1-spring/desafio-spring/src/main/java/com/aluracursos/desafio_spring/DesafioSpringApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="0a6af666-7d8c-4401-a6e4-b7fb483e2b56" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
