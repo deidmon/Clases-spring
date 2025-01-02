@@ -10,7 +10,7 @@ import med.voll.api.direccion.Direccion;
 @Table(name = "medicos")
 @Entity(name = "Medico")
 @Getter
-@NoArgsConstructor
+/*@NoArgsConstructor*/
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
 public class Medico {
@@ -34,5 +34,35 @@ public class Medico {
         this.especialidad = datosRegistroMedico.especialidad();
         this.direccion = new Direccion(datosRegistroMedico.direccion());
 
+    }
+
+    public Medico(){}
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public Especialidad getEspecialidad() {
+        return especialidad;
+    }
+
+    public String getDocumento() {
+        return documento;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public Direccion getDireccion() {
+        return direccion;
     }
 }
