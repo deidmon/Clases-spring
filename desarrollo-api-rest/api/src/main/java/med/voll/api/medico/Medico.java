@@ -65,4 +65,17 @@ public class Medico {
     public Direccion getDireccion() {
         return direccion;
     }
+
+    public void actualizarDatos(DatosActualizarMedico datosActualizarMedico) {
+        if (datosActualizarMedico.nombre() != null){
+            this.nombre = datosActualizarMedico.nombre();
+        }
+        if (datosActualizarMedico.documento() != null){
+            this.documento = datosActualizarMedico.documento();
+        }
+        if (datosActualizarMedico.datosDireccion() != null){
+            this.direccion = direccion.actualizarDatos(datosActualizarMedico.datosDireccion());
+        }
+
+    }
 }
