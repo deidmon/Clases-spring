@@ -59,5 +59,15 @@ public class Usuario implements UserDetails {
         return true;
     }
 
+    public String getLogin() {
+        return login;
+    }
 
+    public Long getId() {
+        return id;
+    }
+
+    public String getClave() {
+        return clave;
+    }
 }
