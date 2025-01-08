@@ -37,4 +37,19 @@ public class Consulta {
         this.fecha = fecha;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public Medico getMedico() {
+        return medico;
+    }
+
+    public Paciente getPaciente() {
+        return paciente;
+    }
+
+    public LocalDateTime getFecha() {
+        return fecha;
+    }
 }
