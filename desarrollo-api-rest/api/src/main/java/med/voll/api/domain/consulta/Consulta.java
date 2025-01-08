@@ -30,6 +30,11 @@ public class Consulta {
 
     private LocalDateTime fecha;
 
-
+    public Consulta(Long id, Medico medico, Paciente paciente, LocalDateTime fecha) {
+        this.id = id;
+        this.medico = medico;
+        this.paciente = paciente;
+        this.fecha = fecha;
+    }
 
 }
