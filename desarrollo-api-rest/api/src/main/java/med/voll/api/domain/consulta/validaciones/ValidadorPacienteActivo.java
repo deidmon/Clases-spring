@@ -5,8 +5,10 @@ import jakarta.validation.ValidationException;
 import med.voll.api.domain.consulta.DatosReservarConsulta;
 import med.voll.api.domain.paciente.PacienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-public class ValidadorPacienteActivo{
+@Component
+public class ValidadorPacienteActivo implements ValidadorDeConsultas{
     @Autowired
     private PacienteRepository repository;
 

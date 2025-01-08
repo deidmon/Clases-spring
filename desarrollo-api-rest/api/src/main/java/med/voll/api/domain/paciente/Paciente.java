@@ -47,6 +47,8 @@ public class Paciente {
         }
     }
 
+    public Paciente(){}
+
     public void eliminar() {
         this.activo = false;
     }
