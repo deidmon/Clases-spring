@@ -35,6 +35,7 @@ public class SecurityConfigurations {
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS)) // Sesión sin estado
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(HttpMethod.POST, "/login").permitAll() // Permite acceso a /login
+                        .requestMatchers("/v3/api-docs/**", "/swagger-ui.html", "/swagger-ui/**").permitAll()
                         .anyRequest().authenticated() // Todas las demás rutas requieren autenticación
                 )
                 .addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class)
